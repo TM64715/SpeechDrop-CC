@@ -32,7 +32,7 @@
                     </header>
                     </a>
                     <div class="card-button-container">
-                        <a target="_blank" rel="noopener" v-bind:href="'https://docs.google.com/gview?url=' + fileEntry.url" class="half card-button card-button-left">Preview</a>
+                        <a target="_blank" rel="noopener" v-bind:href="'https://docs.google.com/gview?url=https://files.classrooms.cloud' + fileEntry.url" class="half card-button card-button-left">Preview</a>
                         <a v-bind:href="fileEntry.url" class="half card-button" download>Download</a>
                     </div>
                 </article>
